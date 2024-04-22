@@ -1,0 +1,84 @@
+body {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(210, 178, 212, 1) 11%, rgba(194, 180, 217, 1) 31%, rgba(190, 180, 218, 1) 41%, rgba(181, 219, 215, 1) 49%, rgba(184, 181, 220, 1) 55%, rgba(148, 171, 233, 1) 70%);
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.login-form {
+    width: 500px;
+    border: 2px solid #ccc;
+    background: #fff;
+    border-radius: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+button {
+    float: right;
+    background: #555;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+.error {
+    background: #eca3a3;
+    color: #e4302d;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    float: right;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .9;
+}
+
+.container {
+    padding: 4rem 0rem;
+
+}
+
+h4 {
+    margin: 2rem 0rem 1rem;
+}
+
+.card img {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
